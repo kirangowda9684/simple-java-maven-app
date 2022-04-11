@@ -36,6 +36,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'Docker Hub'
-    repository: 'Kirangowda9684 / firstrepo'
+    repository: 'kirangowda9684 / firstrepo'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
