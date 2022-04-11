@@ -38,4 +38,4 @@ steps:
     containerRegistry: 'Docker Hub'
     repository: 'kirangowda9684 / firstrepo'
     command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+    Dockerfile: 'Dockerfile'
